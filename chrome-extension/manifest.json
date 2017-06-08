@@ -12,7 +12,6 @@
     "default_title": "Download mp3"
   },
   "permissions": [
-      "downloads",
-      "tabs"
+      "downloads"
   ]
 }
