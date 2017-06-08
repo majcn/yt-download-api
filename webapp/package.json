@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gregor Majcen <majcn.m@gmail.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "koa": "^2.2.0"
   }
