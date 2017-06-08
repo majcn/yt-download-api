@@ -6,7 +6,7 @@ const app = new Koa();
 
 
 const PORT = process.env.PORT || 3000;
-const youtubedl = 'youtube-dl';
+const youtubedl = '/usr/local/bin/youtube-dl';
 
 
 function update() {
