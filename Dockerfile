@@ -255,7 +255,7 @@ RUN apk add --no-cache curl make gcc g++ python linux-headers binutils-gold gnup
 
 
 
-RUN apk add --update python
+RUN apk add --update curl python
 RUN curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl && chmod a+rx /usr/local/bin/youtube-dl
 
 WORKDIR /opt/webapp
