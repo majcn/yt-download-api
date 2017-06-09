@@ -25,7 +25,7 @@ app.use(ctx => {
     let updateLog = update()
     let fileName = download(vid)
 
-    ctx.res.setHeader('Content-Disposition', `attachment; filename=${fileName}`);
+    ctx.res.setHeader('Content-Disposition', `attachment; filename=${encodeURI(fileName)}`);
     ctx.res.setHeader('Content-Length', fs.statSync(fileName).size);
     ctx.body = fs.createReadStream(fileName);
 
